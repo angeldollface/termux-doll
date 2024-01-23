@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+NAME="flek"
+remove(){
+    rm -rf $PREFIX/bin/$NAME
+}
+remove

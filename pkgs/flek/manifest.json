@@ -1,0 +1,20 @@
+{
+    "control": {
+        "Package": "flek",
+        "Version": "1.9.0",
+        "Architecture": "all",
+        "Maintainer": "angeldollface <angelbbe@proton.me>",
+        "Depends": "rust, wget",
+        "Homepage": "https://github.com/angeldollface/flek",
+        "Description": [
+            "A Rustacean implementation of my own algorithms to check for password security."
+        ]
+    },
+    "control_files_dir": ".",
+    "installation_prefix": "/data/data/com.termux/files/usr",
+
+    "data_files": {
+        "bin/install-flek": { "source": "install-flek" },
+        "bin/uninstall-flek": { "source": "uninstall-flek" }
+    }
+}

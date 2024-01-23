@@ -1,0 +1,19 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+VERSION="1.9.0"
+NAME="flek"
+URL="https://github.com/angeldollface/$NAME/archive/refs/tags/v.$VERSION.tar.gz"
+
+build(){
+    wget $URL
+    tar -xvzf "v.$VERSION.tar.gz" -C "$NAME"
+    mv "$NAME" "$NAME-bin"
+    cd "$NAME-bin"
+    cargo build --release
+    chmod a+x "target/release/$NAME"
+    mv "target/release/$NAME" $PREFIX/bin
+    cd ..
+    rm -rf "$NAME-bin" *.tar.gz
+}
+
+build

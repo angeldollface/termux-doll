@@ -1,0 +1,19 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+VERSION="0.1.0"
+NAME="chirp"
+URL="https://github.com/angeldollface/$NAME/archive/refs/tags/v.$VERSION.tar.gz"
+
+build(){
+    wget $URL
+    tar -xvzf "v.$VERSION.tar.gz" -C "$NAME"
+    mv "$NAME" "$NAME-bin"
+    cd "$NAME-bin"
+    make
+    make perm
+    mv "$NAME" $PREFIX/bin
+    cd ..
+    rm -rf "$NAME-bin" *.tar.gz
+}
+
+build

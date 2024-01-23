@@ -1,0 +1,20 @@
+{
+    "control": {
+        "Package": "chirp",
+        "Version": "0.1.0",
+        "Architecture": "all",
+        "Maintainer": "angeldollface <angelbbe@proton.me>",
+        "Depends": "clang, build-essential, wget",
+        "Homepage": "https://github.com/angeldollface/chirp",
+        "Description": [
+            "An implementation for a CLI tool in C that uses my algorithm to validate passwords."
+        ]
+    },
+    "control_files_dir": ".",
+    "installation_prefix": "/data/data/com.termux/files/usr",
+
+    "data_files": {
+        "bin/install-chirp": { "source": "install-chirp" },
+        "bin/uninstall-chirp": { "source": "uninstall-chirp" }
+    }
+}
