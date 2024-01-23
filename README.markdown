@@ -23,13 +23,13 @@ This repository comes with a set of a (un)installation scripts to make your life
 - To install this repository, execute this command from a Termux terminal window. Make sure you have `curl` installed.:
 
 ```
-curl -s https://angeldollface.art/termux-doll/installer/install.sh | bash -s
+curl -s https://angeldollface.art/termux-doll/installer/installer.sh | bash -s
 ```
 
 - To uninstall this repository, execute this command from a Termux terminal window. Make sure you have `curl` installed.:
 
 ```
-curl -s https://angeldollface.art/termux-doll/installer/uninstall.sh | bash -s
+curl -s https://angeldollface.art/termux-doll/installer/uninstaller.sh | bash -s
 ```
 
 ### Installing packages
