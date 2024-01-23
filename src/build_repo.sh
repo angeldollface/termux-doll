@@ -8,14 +8,23 @@ build_packages() {
 }
 
 create_repo(){
-    termux-apt-repo ../debs ../output
+    termux-apt-repo ../debs ../repo
+}
+
+combine(){
+    mkdir ../dist
+    mv ../repo ../dist
+    cp -r ../installer ../dist
 }
 
 execute(){
     mkdir ../debs
     build_packages
     create_repo
-    rm -rf debs
+    combine
+    rm -rf ../debs
 }
+
+
 
 execute
