@@ -1,13 +1,13 @@
 # TERMUX DOLL :dolls: :gear: :iphone:
 
-[![Mandy CI](https://github.com/angeldollface/termux-doll/actions/workflows/main.yml/badge.svg)]
+![Mandy CI](https://github.com/angeldollface/termux-doll/actions/workflows/main.yml/badge.svg)
 
 ***A doll's Termux package repository. :dolls: :gear: :iphone:***
 
 
 ## ABOUT :books:
 
-This repository contains the source for a repository of my own packages for the Termux Android emulator. You are free to do with these Bash scripts whatever you wish.
+This repository contains the source for a repository of my own packages for the Termux Android terminal emulator. You are free to do with these Bash scripts as you wish.
 
 ## USAGE :gear:
 
