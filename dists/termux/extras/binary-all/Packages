@@ -1,0 +1,30 @@
+Package: chirp
+Version: 0.1.0
+Architecture: all
+Maintainer: angeldollface <angelbbe@proton.me>
+Installed-Size: 2
+Depends: clang, build-essential, wget
+Homepage: https://github.com/angeldollface/chirp
+Description: An implementation for a CLI tool in C that uses my algorithm to validate passwords.
+Filename: dists/termux/extras/binary-all/chirp_0.1.0_all.deb
+Size: 1220
+MD5Sum: 295246142374749526c423037bde1531
+SHA1: ce20249a7d59e92869fca458ea3bdd4d77ef3375
+SHA256: 6cdf3873df29efa199a3b5349c122ac1a41234d68123ee3693018c7df5c1ad73
+SHA512: c24c6dcb313191f165c3c461cfb1c576d8ad529e9343b5473db3219baa1801cfff0a3d16aaff0293ee802f373200afcba854bc174303000305362629324e5216
+
+Package: flek
+Version: 1.9.0
+Architecture: all
+Maintainer: angeldollface <angelbbe@proton.me>
+Installed-Size: 2
+Depends: rust, wget
+Homepage: https://github.com/angeldollface/flek
+Description: A Rustacean implementation of my own algorithms to check for password security.
+Filename: dists/termux/extras/binary-all/flek_1.9.0_all.deb
+Size: 1236
+MD5Sum: 25b691bb8cb43cd8e12fca33ec53d908
+SHA1: 40d22aea3ae5e7fa82731b8a8b1b7c1fae12c773
+SHA256: 5a41cc587a26673cba14a497f9dedd97c231844f8424351b4e696dde7084c26d
+SHA512: 6f910142af60995c2d4f3043a30b5a49afe7c839c1ba6d9c7c99a3a1b58b176ca10450ea871c15c6bb22fbdbc669a62738ad85a06de11b783b5f8500f81041cf
+
