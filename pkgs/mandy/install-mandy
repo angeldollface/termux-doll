@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/env bash
 
-VERSION="0.1.0"
-NAME="chirp"
+VERSION="0.3.3"
+NAME="mandy"
 URL="https://github.com/angeldollface/$NAME/archive/refs/tags/v.$VERSION.tar.gz"
 
 build(){
@@ -9,9 +9,9 @@ build(){
     tar -xvzf "v.$VERSION.tar.gz"
     mv "$NAME-v.$VERSION" "$NAME-bin"
     cd "$NAME-bin"
-    make
-    make perm
-    mv "$NAME" $PREFIX/bin
+    cargo build --release --bin mandy
+    chmod a+x "target/release/$NAME"
+    mv "target/release/$NAME" $PREFIX/bin
     cd ..
     rm -rf "$NAME-bin" *.tar.gz
 }

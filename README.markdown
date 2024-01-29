@@ -11,8 +11,8 @@ This repository contains the source for a repository of my own packages for the 
 
 ## PACKAGES :package:
 
-- [Chirp](https://github.com/angeldollface/chirp): An implementation for a CLI tool in C that uses my algorithm to validate passwords.
 - [Flek](https://github.com/angeldollface/flek): A Rustacean implementation of my own algorithms to check for password security.
+- [Mandy](https://github.com/angeldollface/mandy): A hypersonic static-site generator written in Rust.
 
 ## USAGE :gear:
 

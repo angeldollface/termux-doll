@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/env bash
 
-NAME="chirp"
+NAME="mandy"
 remove(){
     rm -rf $PREFIX/bin/$NAME
 }

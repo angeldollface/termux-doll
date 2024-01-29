@@ -1,20 +1,20 @@
 {
     "control": {
-        "Package": "flek",
-        "Version": "1.9.0",
+        "Package": "mandy",
+        "Version": "0.3.3",
         "Architecture": "all",
         "Maintainer": "angeldollface <angelbbe@proton.me>",
         "Depends": "rust, wget, binutils, build-essential",
         "Homepage": "https://github.com/angeldollface/flek",
         "Description": [
-            "A Rustacean implementation of my own algorithms to check for password security."
+            "A hypersonic static-site generator written in Rust."
         ]
     },
     "control_files_dir": ".",
     "installation_prefix": "/data/data/com.termux/files/usr",
 
     "data_files": {
-        "bin/install-flek": { "source": "install-flek" },
-        "bin/uninstall-flek": { "source": "uninstall-flek" }
+        "bin/install-mandy": { "source": "install-mandy" },
+        "bin/uninstall-mandy": { "source": "uninstall-mandy" }
     }
 }
