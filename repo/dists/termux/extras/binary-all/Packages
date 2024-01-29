@@ -1,30 +1,30 @@
-Package: chirp
-Version: 0.1.0
-Architecture: all
-Maintainer: angeldollface <angelbbe@proton.me>
-Installed-Size: 2
-Depends: clang, build-essential, wget
-Homepage: https://github.com/angeldollface/chirp
-Description: An implementation for a CLI tool in C that uses my algorithm to validate passwords.
-Filename: dists/termux/extras/binary-all/chirp_0.1.0_all.deb
-Size: 1220
-MD5Sum: db7f54be2f5599d4252e3d0996355df8
-SHA1: 33c5a49ede74a2bb4536c495040f23069937e3a5
-SHA256: 027c864ddd19ce30c1cc1f7b6d3bf72cd477d93e0b9fb4e782e9af7534c3ebc5
-SHA512: d10112c11c4cb26d62d24d940dd8b0ad0330907ecc6146210f4f9395179601c3813c02ea56073d6a3b71d97939bf81f71257673f1d2413384590600fbb820e21
-
 Package: flek
 Version: 1.9.0
 Architecture: all
 Maintainer: angeldollface <angelbbe@proton.me>
 Installed-Size: 2
-Depends: rust, wget
+Depends: rust, wget, binutils, build-essential
 Homepage: https://github.com/angeldollface/flek
 Description: A Rustacean implementation of my own algorithms to check for password security.
 Filename: dists/termux/extras/binary-all/flek_1.9.0_all.deb
-Size: 1232
-MD5Sum: 06deedbcce741add58c7209ef2539002
-SHA1: 93b53d1470a17a74dd5caa7bda5ae2c91bb50f1c
-SHA256: 71f68c3889a940e873b98b5b47b22c62ff188383737961578846105833168f1e
-SHA512: 72a350d5da7b0724a8ca8303424c27bf0086df1d8831d937cf6a958a6cae99237f5032b056fd527db61d6b764b1ebf3e254dc05c41c8c49579e39c22d0cfcbfe
+Size: 1252
+MD5Sum: 7d546d2ef79b972256ff01996f5be081
+SHA1: 540471812af64e1b4ed0c5c4a3f2f61ad762756d
+SHA256: a40d649464871fca98265e395219bd7f736340e10951a36458d4fe72ea4b3bdb
+SHA512: def6db4ebe7a8c5eec55898d10c88a0faf7e8bf940fbee054a00b0c497d05316e108ecb36982d0b42c00b30ad9bfb20914312ad45f72cb19ff24e07da52e07d9
+
+Package: mandy
+Version: 0.3.3
+Architecture: all
+Maintainer: angeldollface <angelbbe@proton.me>
+Installed-Size: 2
+Depends: rust, wget, binutils, build-essential
+Homepage: https://github.com/angeldollface/flek
+Description: A hypersonic static-site generator written in Rust.
+Filename: dists/termux/extras/binary-all/mandy_0.3.3_all.deb
+Size: 1240
+MD5Sum: 7f548e8a4eabf960e9038ed2c0f2b356
+SHA1: be444d343ae77792da219b54b59eba5ac5addb66
+SHA256: 7ee8c3522e588a660c96e3ec1db7fedd0d41f494b06b9ed3f8a86b55b3ac699c
+SHA512: 1a6849f50097dae753f13b542142b6256408e62b7307e772bb0858c89994a0eb8726e4ae9893f80ed0d7cc3c01ac6e203b0215884a13692d914e1d8f80464f09
 

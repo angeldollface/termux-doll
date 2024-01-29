@@ -1,4 +1,4 @@
-data/data/com.termux/files/usr/bin/install-chirp                                 chirp
-data/data/com.termux/files/usr/bin/uninstall-chirp                               chirp
 data/data/com.termux/files/usr/bin/install-flek                                  flek
 data/data/com.termux/files/usr/bin/uninstall-flek                                flek
+data/data/com.termux/files/usr/bin/install-mandy                                 mandy
+data/data/com.termux/files/usr/bin/uninstall-mandy                               mandy
