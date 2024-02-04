@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/env bash
 
-VERSION="0.3.3"
+VERSION="0.3.4"
 NAME="mandy"
 URL="https://github.com/angeldollface/$NAME/archive/refs/tags/v.$VERSION.tar.gz"
 
