@@ -7,24 +7,24 @@ Depends: rust, wget, binutils, build-essential
 Homepage: https://github.com/angeldollface/flek
 Description: A Rustacean implementation of my own algorithms to check for password security.
 Filename: dists/termux/extras/binary-all/flek_1.9.0_all.deb
-Size: 1252
-MD5Sum: b98c445e1031ffff795d729db69d72de
-SHA1: 84cf063f166b54dc4df6496667e63a8d06c4c38b
-SHA256: c5eca327f80aea6588b474255dfbc1b93bf51e05342be7310c1ae988f158f073
-SHA512: 50ffe4c117fbce3def9ab801dfc99b5cc783153eb90eca6de37fc67cb9a2a0230e33d35e8790405b81a2517a2ddb396654f8aa783ff6dfbad43f934e5f5aac2e
+Size: 1256
+MD5Sum: a635b5edb50bbc0f80b89636adb336a5
+SHA1: 191b01c086320df0b3a257bfa456ec58b6bc0b03
+SHA256: af4a41e25a5a9b499a2d0f2b8631d2adf788fc264abee8565887604c8d2f0d99
+SHA512: 15f4be32262bab1e8a665b5d2fbae0c397a454f162a17e15f963db3e9a8f3206d22904099a9a3891220dd7e9a1e51c51fa93ab002ca593e41ecbcdd288033df5
 
 Package: mandy
-Version: 0.3.3
+Version: 0.3.4
 Architecture: all
 Maintainer: angeldollface <angelbbe@proton.me>
 Installed-Size: 2
 Depends: rust, wget, binutils, build-essential
 Homepage: https://github.com/angeldollface/flek
 Description: A hypersonic static-site generator written in Rust.
-Filename: dists/termux/extras/binary-all/mandy_0.3.3_all.deb
+Filename: dists/termux/extras/binary-all/mandy_0.3.4_all.deb
 Size: 1240
-MD5Sum: 5069bc97938fa8f5173e671927563ad9
-SHA1: 8642698f20a0ffacdaa51b773914689f750df8de
-SHA256: 1f78a5f011862a490a73005addf12c598432dbdbb522f28f2e6cd33b97b68970
-SHA512: 9b42a88a97d5c62c46859958e577ce6b08271f83d28cefe521dbf235e18e1ebb3847ec8f01434f7ac586020316a95e0edcd124961d39578751606f029656dda8
+MD5Sum: 7376f1a3aad623bfb993a61faf711b48
+SHA1: e398ba90fc6391f7fe881ba8f1d2da524ea7d738
+SHA256: a3fc0f8463dbb77dfee6447769d1c60ccbec2bb0e81535da959a272608095518
+SHA512: 59d653425314fa5ba92b59fea6921934c2b97a9ca105eca9d08b852f5d851a6de7fd64c9daf0c1b0bf80c97bd9181734745c50c91a114eb235abd78e225ba886
 
