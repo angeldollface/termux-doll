@@ -8,10 +8,10 @@ Homepage: https://github.com/angeldollface/flek
 Description: A Rustacean implementation of my own algorithms to check for password security.
 Filename: dists/termux/extras/binary-all/flek_1.9.0_all.deb
 Size: 1252
-MD5Sum: 7d546d2ef79b972256ff01996f5be081
-SHA1: 540471812af64e1b4ed0c5c4a3f2f61ad762756d
-SHA256: a40d649464871fca98265e395219bd7f736340e10951a36458d4fe72ea4b3bdb
-SHA512: def6db4ebe7a8c5eec55898d10c88a0faf7e8bf940fbee054a00b0c497d05316e108ecb36982d0b42c00b30ad9bfb20914312ad45f72cb19ff24e07da52e07d9
+MD5Sum: b98c445e1031ffff795d729db69d72de
+SHA1: 84cf063f166b54dc4df6496667e63a8d06c4c38b
+SHA256: c5eca327f80aea6588b474255dfbc1b93bf51e05342be7310c1ae988f158f073
+SHA512: 50ffe4c117fbce3def9ab801dfc99b5cc783153eb90eca6de37fc67cb9a2a0230e33d35e8790405b81a2517a2ddb396654f8aa783ff6dfbad43f934e5f5aac2e
 
 Package: mandy
 Version: 0.3.3
@@ -23,8 +23,8 @@ Homepage: https://github.com/angeldollface/flek
 Description: A hypersonic static-site generator written in Rust.
 Filename: dists/termux/extras/binary-all/mandy_0.3.3_all.deb
 Size: 1240
-MD5Sum: 7f548e8a4eabf960e9038ed2c0f2b356
-SHA1: be444d343ae77792da219b54b59eba5ac5addb66
-SHA256: 7ee8c3522e588a660c96e3ec1db7fedd0d41f494b06b9ed3f8a86b55b3ac699c
-SHA512: 1a6849f50097dae753f13b542142b6256408e62b7307e772bb0858c89994a0eb8726e4ae9893f80ed0d7cc3c01ac6e203b0215884a13692d914e1d8f80464f09
+MD5Sum: 5069bc97938fa8f5173e671927563ad9
+SHA1: 8642698f20a0ffacdaa51b773914689f750df8de
+SHA256: 1f78a5f011862a490a73005addf12c598432dbdbb522f28f2e6cd33b97b68970
+SHA512: 9b42a88a97d5c62c46859958e577ce6b08271f83d28cefe521dbf235e18e1ebb3847ec8f01434f7ac586020316a95e0edcd124961d39578751606f029656dda8
 
