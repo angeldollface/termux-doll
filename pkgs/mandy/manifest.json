@@ -1,7 +1,7 @@
 {
     "control": {
         "Package": "mandy",
-        "Version": "0.3.3",
+        "Version": "0.3.4",
         "Architecture": "all",
         "Maintainer": "angeldollface <angelbbe@proton.me>",
         "Depends": "rust, wget, binutils, build-essential",
